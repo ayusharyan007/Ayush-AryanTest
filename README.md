@@ -45,6 +45,26 @@ Once the differences or patches are identified through diffing, React applies th
 React's Virtual DOM implementation includes additional optimization techniques to further improve performance. For example, React batches multiple updates together and performs them in a single update cycle, minimizing the number of re-renders and DOM manipulations. React also avoids unnecessary updates by skipping the rendering of components that have not changed.
 <h4>Step 7- </h4> Re-rendering and Lifecycles:
 As the application continues to interact with users and the state or props of components change, React triggers re-renders and updates to the Virtual DOM. It compares the updated Virtual DOM with the previous version, performs diffing, and efficiently updates the real DOM, ensuring that the UI remains synchronized with the application's data and logic.<br><br>
+Q4 - Mention some Differences between MySQL and NoSQL.<br>
+Ans- 1. On the basis of data model.<br>
+* My SQL  - Structural Query Language.<br>
+          - it has relational data models.<br>
+          - data is stored in tables with defined schemas.<br>
+* No SQl  - non structural query language <br>
+          - data models such as key-value, document, columnar, or graph-based. <br>
+          -provides flexible schema designs <br>
+2 . On the basis of Scalability.
+* My SQL -  provides vertical scalability.<br>
+               - More hardware resources required.<br>
+* No SQL - provides horizontal scalability.<br>
+               - no extra hardware required.<br>
+
+3. On the basis of Use Cases.
+* My SQL - used for applications that require structured data <br>
+                 - example- e-commerce platforms, banking systems, and content management systems. <br>
+* No SQL - handling large volumes of unstructured or semi-structured data, real-time data processing <br>
+                 - example - social media analytics, IoT data storage, and content caching. <br>
+  
 Q5 - Explain any one DBMS Technology in your own words.<br>
 Ans - One popular DBMS (Database Management System) technology is MongoDB. It's NoSQL (non-relational) database management system that provides a flexible and scalable approach to storing and retrieving data. It is designed to handle large volumes of unstructured and semi-structured data, making it well-suited for modern applications with evolving data requirements.<br>
 MongoDB allows you to store, retrieve, and manipulate data in a way that closely resembles the structure of your application's objects or entities. This makes it easier to represent complex data structures, such as nested arrays or embedded documents, without the need for complex joins or migrations.<br>
